@@ -53,47 +53,37 @@
 
 
 	<!-- +++++ Contact Section +++++ -->
-
-	<div class="container pt">
-		<div class="row mt">
-			<div class="col-lg-6 col-lg-offset-3 centered">
-				<h3>CONTACT ME</h3>
-				<hr>
-				<p>It would be great to hear from you!</p>
-			</div>
-		</div>
-      <div class="row mt">
+  <div class="container pt">
+  		<div class="row mt">
+  			<div class="col-lg-6 col-lg-offset-3 centered">
+  				<h3>CONTACT ME</h3>
+  				<hr>
+  				<p>It would be great to hear from you!</p>
+  			</div>
+  		</div>
+  		<div class="row mt">
   			<div class="col-lg-8 col-lg-offset-2">
-          <form name="contact2" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input class="form-control" type="text" input name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input class="form-control" input type="email" input name="email"/></label>
-  </p>
-  <p>
-    <label>Message: <textarea class="form-control" rows="6" name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-  				<!-- <form name="contact" method="POST" data-netlify="true">
+  				<form action="https://formspree.io/mljarmanDS@gmail.com" method="POST" role="form">
   				  <div class="form-group">
-  				    <input class="form-control" id="exampleInputEmail1" type="name" placeholder="Your name"/>
+  				    <input type="name" name="name" class="form-control" id="NameInputEmail1" placeholder="Your Name">
   				    <br>
   				  </div>
   				  <div class="form-group">
-  				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  				    <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
   				    <br>
   				  </div>
-  				  <textarea class="form-control" rows="6" placeholder="Enter your text here"></textarea>
+  				  <div class="form-group">
+  				    <input type="text" name="_subject" class="form-control" id="subjectEmail1" placeholder="Subject">
   				    <br>
-  				  <button type="submit" >Send</button></button>
-  				</form> -->
+  				  </div>
+  				  <textarea name="message" class="form-control" rows="6" placeholder="Enter your text here"></textarea>
+  				    <br>
+  				  <button type="submit" class="btn btn-success">SUBMIT</button>
+  				</form>
   			</div>
   		</div><!-- /row -->
   	</div><!-- /container -->
+
 	<!-- +++++ Footer Section +++++ -->
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
