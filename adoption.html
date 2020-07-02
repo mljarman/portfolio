@@ -67,7 +67,7 @@
             <div class="col-md-8" data-aos="fade-up">
               <h4 class="h4 mb-3">Details</h4>
               <ul class="list-unstyled list-line mb-5">
-                <li>Tech Stack: Flask | Heroku | Plotly</li>
+                <li>Tech Stack: Flask | Heroku | Plotly Dash</li>
                 <li>Model: Random Forest Classifier</li>
                 <li>Data Source: <a href="https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Outcomes/9t4d-g238">Austin Animal Center</a></li>
               </ul>
@@ -82,10 +82,16 @@
                 <p class="mb-4"><span class="text-muted">Solo Project</span></p>
 
                 <div class="mb-5">
-                  <p>Plotly dash app that predicts whether or not a dog or cat will be adopted. Completed in 1 week.
-                  After exploratory data analysis and data cleaning, a random forest classifier was used on data that
-                was narrowed down to cats and dogs based on numerous features. In the Plotly Dash app, users are able
-              to customize features of a particular animal and a probability is returned on the animal being adopted or not.</p>
+                  <p>A one week project that resulted in a Plotly dash app that predicts the probability
+                  that a dog or cat will be adopted.</p>
+                  <p>Data was pulled from the Austin Animal Shelter in Texas. While the initial data included different types of
+                    animals including livestock, I decided to narrow it down to only dogs and cats. After exploratory data analysis and data cleaning,
+                    a random forest classifier was used based on numerous features of the animals including breed, color, age, sex, and whether or not the
+                    animal was fixed. This last feature proved to be the most significant to the model. </p>
+                   <p>In the Plotly Dash app, users are able to customize features of a particular animal and a probability is returned on the animal
+                     being adopted or not. I learned about Uplift Modeling at this time and was wondering the possiblities of using it in the case of sheltered animals.
+                     Perhaps those whose predicted probability of being adopted is low could be helped with marketing. A spotlight story on them through social media
+               that may get potential pet owners more interested in those less desirable animals.</p>
 
                 </div>
               </div>

@@ -70,8 +70,8 @@
             <div class="col-md-8" data-aos="fade-up">
               <h4 class="h4 mb-3">Details</h4>
               <ul class="list-unstyled list-line mb-5">
-                <li>Tech Stack: React | Netlify | Flask | Heroku</li>
-                <li>Model: XGBoost and Ridge Regression</li>
+                <li>Tech Stack: React | Node | Express | PostgreSQ | Flask | Heroku</li>
+                <li>Model: XGBoost and Ridge Regression with Spacy embeddings</li>
                 <li>Role: Data Engineer</li>
 
                 <a href="https://opti.netlify.app/" class="btn btn-default" role="button">Visit App</a>
@@ -85,12 +85,14 @@
                 <p class="mb-4"><span class="text-muted">Team Project</span></p>
                 <div class="mb-5">
                   <p>Completed in 1-week on a crossfunctional team of 7 including data science
-                    and web developers. App designed to enable users to post and save Airbnb listings
+                    and web developer students. App designed to enable users to post and save Airbnb listings
                     in Berlin at an optimal price using predictive modeling.</p>
                   <p> As the Data Engineer on the project, I was responsible for the API that connected
-                    the Machine Learning Engineer's predictive model to the backend engineer. Various features
-                    were submitted into the model like square footage, rooms, beds, etc. and the API returned the
-                    predicted price in JSON format.
+                    the Machine Learning Engineer's predictive model to the backend engineer's database.
+                    The user would input various features like square footage, rooms, and beds and the API would take
+                    that information, in addition to a description given. Before going through the model, the description portion
+                    was transformed into word vectors using the Spacy embeddings. After going through the predictive model,
+                    the API returned the optimal price and was stored for the user in their listings.</p>
                   </p>
                 </div>
                 </ul>
